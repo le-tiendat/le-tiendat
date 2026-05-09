@@ -1,0 +1,281 @@
+<mxfile host="app.diagrams.net" modified="2026-05-09T00:00:00.000Z" agent="5.0" etag="abc123" version="20.0" type="device">
+  <diagram id="usecase" name="Use Case Diagram">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" background="ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        
+        <!-- System Boundary -->
+        <mxCell id="system" value="Hệ Thống Quản Lý Bán Hàng" style="shape=rectangle;html=1;verticalAlign=top;horizontalAlign=left;strokeWidth=2;rounded=0;dashed=0;dashPattern=1 4;" parent="1" vertex="1">
+          <mxGeometry x="300" y="100" width="1000" height="700" as="geometry"/>
+        </mxCell>
+        
+        <!-- Actors -->
+        <mxCell id="customer" value="Customer&#xa;(Khách hàng)" style="shape=umlActor;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="50" y="250" width="80" height="100" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="staff" value="Staff&#xa;(Nhân viên)" style="shape=umlActor;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="50" y="450" width="80" height="100" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="admin" value="Admin&#xa;(Quản trị)" style="shape=umlActor;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="1350" y="400" width="80" height="100" as="geometry"/>
+        </mxCell>
+        
+        <!-- Use Cases - Column 1: Authentication -->
+        <mxCell id="uc26" value="UC26: Đăng nhập" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="130" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="uc27" value="UC27: Đăng xuất" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="210" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Use Cases - Column 2: Categories -->
+        <mxCell id="uc6" value="UC6: Xem danh mục" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="130" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="uc7" value="UC7: Thêm danh mục" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="210" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="uc8" value="UC8: Sửa danh mục" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="290" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Use Cases - Column 3: Products -->
+        <mxCell id="uc1" value="UC1: Xem SP" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="650" y="130" width="100" height="50" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="uc2" value="UC2: Tìm kiếm SP" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="650" y="200" width="100" height="50" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="uc3" value="UC3: Chi tiết SP" style="ellipse;whiteSpace:wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="650" y="270" width="100" height="50" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="uc4" value="UC4: Tồn kho" style="ellipse;whiteSpace:wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="650" y="340" width="100" height="50" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="uc5" value="UC5: Cập nhật SP" style="ellipse;whiteSpace:wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="650" y="410" width="100" height="50" as="geometry"/>
+        </mxCell>
+        
+        <!-- Use Cases - Column 4: Orders -->
+        <mxCell id="uc9" value="UC9: Tạo đơn hàng" style="ellipse;whiteSpace:wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="800" y="130" width="110" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="uc10" value="UC10: Xem chi tiết" style="ellipse;whiteSpace:wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="800" y="210" width="110" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="uc11" value="UC11: Cập nhật trạng thái" style="ellipse;whiteSpace:wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="800" y="290" width="110" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="uc12" value="UC12: Hủy đơn" style="ellipse;whiteSpace:wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="800" y="370" width="110" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="uc13" value="UC13: Lịch sử" style="ellipse;whiteSpace:wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="800" y="450" width="110" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Use Cases - Column 5: Vouchers -->
+        <mxCell id="uc14" value="UC14: Tạo voucher" style="ellipse;whiteSpace:wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="950" y="130" width="110" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="uc15" value="UC15: Áp dụng voucher" style="ellipse;whiteSpace:wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="950" y="210" width="110" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="uc16" value="UC16: Xem voucher" style="ellipse;whiteSpace:wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="950" y="290" width="110" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="uc17" value="UC17: Kho voucher" style="ellipse;whiteSpace:wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="950" y="370" width="110" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Use Cases - Column 6: Customers -->
+        <mxCell id="uc18" value="UC18: Đăng ký" style="ellipse;whiteSpace:wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="130" width="100" height="50" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="uc19" value="UC19: Xem thông tin" style="ellipse;whiteSpace:wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="200" width="100" height="50" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="uc20" value="UC20: Cập nhật info" style="ellipse;whiteSpace:wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="270" width="100" height="50" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="uc21" value="UC21: Lịch sử mua" style="ellipse;whiteSpace:wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="340" width="100" height="50" as="geometry"/>
+        </mxCell>
+        
+        <!-- Use Cases - Column 7: Staff Management -->
+        <mxCell id="uc22" value="UC22: Thêm nhân viên" style="ellipse;whiteSpace:wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="650" y="500" width="110" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="uc23" value="UC23: Xem DS nhân viên" style="ellipse;whiteSpace:wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="800" y="530" width="110" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="uc24" value="UC24: Cập nhật nhân viên" style="ellipse;whiteSpace:wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="950" y="500" width="110" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="uc25" value="UC25: Gán quyền" style="ellipse;whiteSpace:wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="530" width="100" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Use Cases - Permissions -->
+        <mxCell id="uc28" value="UC28: Quản lý quyền" style="ellipse;whiteSpace:wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="610" width="100" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Connections: Customer -->
+        <mxCell id="conn1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" parent="1" source="customer" target="uc26" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" parent="1" source="customer" target="uc27" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" parent="1" source="customer" target="uc1" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" parent="1" source="customer" target="uc2" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" parent="1" source="customer" target="uc3" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" parent="1" source="customer" target="uc6" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" parent="1" source="customer" target="uc9" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" parent="1" source="customer" target="uc10" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" parent="1" source="customer" target="uc13" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" parent="1" source="customer" target="uc15" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" parent="1" source="customer" target="uc18" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" parent="1" source="customer" target="uc19" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" parent="1" source="customer" target="uc20" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" parent="1" source="customer" target="uc21" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- Connections: Staff -->
+        <mxCell id="conn15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" parent="1" source="staff" target="uc26" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" parent="1" source="staff" target="uc27" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" parent="1" source="staff" target="uc5" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" parent="1" source="staff" target="uc10" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" parent="1" source="staff" target="uc11" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" parent="1" source="staff" target="uc12" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" parent="1" source="staff" target="uc14" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" parent="1" source="staff" target="uc16" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" parent="1" source="staff" target="uc17" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" parent="1" source="staff" target="uc23" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- Connections: Admin -->
+        <mxCell id="conn25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" parent="1" source="admin" target="uc26" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" parent="1" source="admin" target="uc27" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" parent="1" source="admin" target="uc7" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" parent="1" source="admin" target="uc8" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" parent="1" source="admin" target="uc5" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" parent="1" source="admin" target="uc14" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" parent="1" source="admin" target="uc17" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" parent="1" source="admin" target="uc22" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" parent="1" source="admin" target="uc23" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" parent="1" source="admin" target="uc24" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" parent="1" source="admin" target="uc25" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" parent="1" source="admin" target="uc28" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- Include relationships (dashed) -->
+        <mxCell id="include1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;dashed=1;dashPattern=5 5;" parent="1" source="uc9" target="uc15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="50" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="include2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;dashed=1;dashPattern=5 5;" parent="1" source="uc9" target="uc11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="50" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="include3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;dashed=1;dashPattern=5 5;" parent="1" source="uc14" target="uc17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="50" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
